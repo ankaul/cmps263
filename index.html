@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<link rel="stylesheet" href="index.css"/>
+        <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+        <script src="index.js"></script> <!-- filler for now write colde later-->
+
+    </head> 
+    <body>
+        <div class = "container" style="text-align:center">
+            <div class="page-header">
+                <h1>Water Pollution in India</h1>
+            </div>
+            <p>
+              Number of rivers defined as ‘polluted’ in India has risen from 121 to 275 in the last five years, with increased levels of sewage a primary cause.In India, over one lakh people die of water-borne diseases annually. It is reported that groundwater in one-third of India’s 600 districts is not fit for drinking as the concentration of fluoride, iron, salinity and arsenic exceeds the tolerance levels.Rivers in generally cross multiple states and idea here is to show how pollution level of a river varies within and across different states.
+            </p>
+            <div class = "col-md-10">
+                <svg width="1100" height="560" id="indiamap">
+                    <rect x="0" y="0" width="780" height="500" stroke="blue" fill="grey"
+       fill-opacity="0.5" stroke-opacity="0.8"/>
+                    <text x="100" y="150" font-family="Verdana" font-size="35" fill="blue">India Map will here </text>
+                    <rect x="800" y="0" width="300" height="250" stroke="blue" fill="purple"
+       fill-opacity="0.5" stroke-opacity="0.8"/>
+                    
+                    <text x="800" y="0" font-family="Verdana" font-size="15" fill="blue"> 
+                    <tspan x="800" dy="1.2em">Drop Down Variables (Pollution by) :</tspan>
+                    <tspan x="800" dy="1.2em">Rivers like ganga, yamuna etc</tspan>
+                    <tspan x="800" dy="1.2em">State under ground water</tspan>
+                    <tspan x="800" dy="1.2em">Different Polltion parameters</tspan>
+                        
+                    </text>
+                    <rect x="800" y="300" width="300" height="200" stroke="blue" fill="green"
+       fill-opacity="0.5" stroke-opacity="0.8"/>
+                    <text x="800" y="350" font-family="Verdana" font-size="15" fill="blue">Index </text>
+                    
+                    
+                </svg> 
+            </div>  <!-- map area -->
+            
+            <br/>
+            <div class = "page-footer">
+                 <div class = "container">
+                     <div class = "row">
+                        <div class = "col-md-12">
+                            <h4 style="font-weight: bold"><br/>Created by</h4>
+                                <p id="myParagraph">Anuj Kaul </p>
+                            <h4 style="font-weight: bold"><br/>Designed for</h4>
+                            <p id="myParagraph">CMPS 263: Data Visualization, Winter 2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "container">
+                   <br/>
+                    <div class = "row">
+                        
+                        <div class="leftpane"><h4 style="font-weight: bold">Data Source </h4>
+                        <p id="myParagraph">
+                                    Open Government Platform of India<br/>
+                                    <a href="http://www.cpcbenvis.nic.in/water_quality_data.html">http://www.cpcbenvis.nic.in/water_quality_data.html</a> 
+                        <p> 
+                        </div>
+                        <div class="middlepane"><h4>Visualization Sources </h4>
+                        <p id="myParagraph">
+                                    
+                                    <a href="https://romsson.github.io/dragit/example/nations.html">Draw motions</a> 
+                                    <br/>
+                                    <a href="https://www.w3schools.com/">W3schools</a>
+                                    <br/>
+                                    <a href="https://sureshlodha.github.io/CMPS165_Spring2016_FinalProjects/projects/water/index.html">Renewable Water Resources per Capita</a>
+                                    <br/>
+                                    <a href="https://sureshlodha.github.io/CMPS165_Fall2016_FinalProjects/ASEAN/">ASEAN: Human Development Index</a>
+                            
+                        <p>
+                        </div>
+                        <div class="rightpane"><h4>References</h4>
+                        <p id="myParagraph">
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>     
+        </div>
+    </body>
+</html>
